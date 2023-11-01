@@ -48,7 +48,7 @@ def get_code_status(urls_file,domain,last):
                 if ret_1!=[]:
                     if ret_2==[]:
                         print('状态码 {}:{}'.format(code, url))
-                        result=result+''.join(url)
+                        result=result+''.join(url)+'\n'
     return result
 
 
